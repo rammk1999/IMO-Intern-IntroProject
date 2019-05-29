@@ -1,0 +1,14 @@
+C:\Users\RMuthukumaran\Documents\development\Intern_bootcamp\Intern\bin\Debug\netcoreapp2.1\Intern.deps.json
+C:\Users\RMuthukumaran\Documents\development\Intern_bootcamp\Intern\bin\Debug\netcoreapp2.1\Intern.runtimeconfig.json
+C:\Users\RMuthukumaran\Documents\development\Intern_bootcamp\Intern\bin\Debug\netcoreapp2.1\Intern.runtimeconfig.dev.json
+C:\Users\RMuthukumaran\Documents\development\Intern_bootcamp\Intern\bin\Debug\netcoreapp2.1\Intern.dll
+C:\Users\RMuthukumaran\Documents\development\Intern_bootcamp\Intern\bin\Debug\netcoreapp2.1\Intern.pdb
+C:\Users\RMuthukumaran\Documents\development\Intern_bootcamp\Intern\obj\Debug\netcoreapp2.1\Intern.csprojAssemblyReference.cache
+C:\Users\RMuthukumaran\Documents\development\Intern_bootcamp\Intern\obj\Debug\netcoreapp2.1\Intern.csproj.CoreCompileInputs.cache
+C:\Users\RMuthukumaran\Documents\development\Intern_bootcamp\Intern\obj\Debug\netcoreapp2.1\Intern.RazorAssemblyInfo.cache
+C:\Users\RMuthukumaran\Documents\development\Intern_bootcamp\Intern\obj\Debug\netcoreapp2.1\Intern.RazorAssemblyInfo.cs
+C:\Users\RMuthukumaran\Documents\development\Intern_bootcamp\Intern\obj\Debug\netcoreapp2.1\Intern.AssemblyInfoInputs.cache
+C:\Users\RMuthukumaran\Documents\development\Intern_bootcamp\Intern\obj\Debug\netcoreapp2.1\Intern.AssemblyInfo.cs
+C:\Users\RMuthukumaran\Documents\development\Intern_bootcamp\Intern\obj\Debug\netcoreapp2.1\Intern.RazorTargetAssemblyInfo.cache
+C:\Users\RMuthukumaran\Documents\development\Intern_bootcamp\Intern\obj\Debug\netcoreapp2.1\Intern.dll
+C:\Users\RMuthukumaran\Documents\development\Intern_bootcamp\Intern\obj\Debug\netcoreapp2.1\Intern.pdb
