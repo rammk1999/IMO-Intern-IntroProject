@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { InternService } from 'src/app/services/intern.service';
+import { Image } from '../../Models/IImage';
 
 @Component({
   selector: 'app-home',
