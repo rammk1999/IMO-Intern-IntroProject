@@ -9,5 +9,9 @@ namespace Intern.Domains
     public interface IDatabaseService
     {
         Task<IEnumerable<Image>> GetAllImages();
+        Task<Image> GetImage(string name);
+        Task CreateImage(Image image);
+        Task UpdateImage(string nameOfImageToUpdate, Image newImage);
+        Task DeleteImage(string nameOfImageToDelete);
     }
 }

@@ -25,30 +25,33 @@ namespace Intern.Controllers
             return Ok(images);
         }
 
-        // GET api/values/5
-        [HttpGet("{id}")]
-        public ActionResult<int> Get(int id)
+        // GET api/images/{name}
+        [HttpGet("{name}")]
+        public async Task<IActionResult> Get(string name)
         {
-            return id;
+            var image = await m_databaseService.GetImage(name);
+            return Ok(image);
         }
 
-        // POST api/values
+        // POST api/images
         [HttpPost]
-        public Image Post([FromBody] Image image)
+        public async Task Post([FromBody] Image image)
         {
-            return image;
+            await m_databaseService.CreateImage(image);
         }
 
-        // PUT api/values/5
-        [HttpPut("{id}")]
-        public void Put(int id, [FromBody] string value)
+        // PUT api/images/{name}
+        [HttpPut("{nameOfImageToUpdate}")]
+        public async Task Put(string nameOfImageToUpdate, [FromBody] Image newImage)
         {
+            await m_databaseService.UpdateImage(nameOfImageToUpdate, newImage);
         }
 
-        // DELETE api/values/5
-        [HttpDelete("{id}")]
-        public void Delete(int id)
+        // DELETE api/images/{name}
+        [HttpDelete("{nameOfImageToDelete}")]
+        public async Task Delete(string nameOfImageToDelete)
         {
+            await m_databaseService.DeleteImage(nameOfImageToDelete);
         }
     }
 }
