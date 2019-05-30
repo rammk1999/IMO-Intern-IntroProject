@@ -1,0 +1,5 @@
+    <div class = "image-card" *ngIf = "image">
+      <h3 class = "title"> {{image.name}} </h3>
+      <img src="{{ image.url }}" />
+      <div class = "create"> {{ image.created | date: 'shortDate' }} </div>
+    </div>

@@ -1,1 +1,44 @@
 /* You can add global styles to this file, and also import other style files */
+html {
+    background-color: orangered;
+}
+
+html h1 {
+    color: wheat
+}
+
+div .image-card {
+    width: 900px;
+    margin: 0 auto;
+    background-color: navy;
+    border-radius: 15px;
+    color: white;
+    margin-bottom: 20px;
+    font-size: 2rem;
+}
+
+div .image-card .title {
+    padding-top: 10px;
+    font-size: 2rem;
+    padding-bottom: 10px;
+    margin: 0;
+    cursor: pointer;
+}
+
+div .image-card img {
+    width: 100%;
+}
+
+div .image-card .create {
+    font-size: 2rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: 700;
+}
+
+button.go-home {
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}

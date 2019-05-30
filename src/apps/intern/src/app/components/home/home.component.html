@@ -1,3 +1,9 @@
-<p>
-  home works!
-</p>
+<input [(ngModel)]="searchText" placeholder="Search"/>
+
+<div *ngFor= "let image of images | imageFilter: searchText">
+  <div class = "image-card">
+    <h3 (click)="goToImage(image.name)" class = "title"> {{image.name}} </h3>
+    <img src="{{ image.url }}" />
+    <div class = "create"> {{ image.created | date: 'shortDate' }} </div>
+  </div>
+</div>
